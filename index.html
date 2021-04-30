@@ -1,14 +1,124 @@
+<!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css">
+  <link rel="stylesheet" href="index.css">
+  <script src = "https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+  <title>Andy's web</title>
 </head>
 
 <body>
-  <a href="/di4r/presentation.pdf" download>Presentation pdf</a><br>
-  <a href="/di4r/presentation.pptx" download>Presentation pptx</a><br>
-  <a href="https://docs.google.com/presentation/d/1UEgXDtRKsGkYhRBaCT5JcKgebV4TCm9gO6CWl70aEVA">Presentation google</a><br>
-  <a href="https://www.youtube.com/watch?v=2c68iAbetg4&t=248s">Video youtube</a><br>
-  <a href="https://drive.google.com/file/d/18Ie7msE4usW_TwujBjTnEVLxBIiFgLnq">Video GDRIVE</a><br>
-  
+
+  <div class="tabset">
+    <input
+     type="radio"
+     name="tabset_1"
+     id="tabset_1_description"
+     hidden
+     aria-hidden="true"
+     checked
+    >
+    <input
+     type="radio"
+     name="tabset_1"
+     id="tabset_1_statistics"
+     hidden
+     aria-hidden="true"
+    >
+    <input
+     type="radio"
+     name="tabset_1"
+     id="tabset_1_reviews"
+     hidden
+     aria-hidden="true"
+    >
+    <input
+     type="radio"
+     name="tabset_1"
+     id="tabset_1_contact"
+     hidden
+     aria-hidden="true"
+    >
+
+  <ul hidden aria-hidden="true">
+     <li><label for="tabset_1_description">Projects</label></li>
+     <li><label for="tabset_1_statistics">Statistics</label></li>
+     <li><label for="tabset_1_reviews">Reviews</label></li>
+     <li><label for="tabset_1_contact">Contact</label></li>
+     <div>
+   test
+     </div>
+  </ul>
+
+  <div>
+     <section>
+      <h2>Projects</h2>
+      <embed type="text/html" src="projects.html" class="tab-content">
+     </section><section>
+      <h2>Statistics</h2>
+      <p>
+       Sed ut leo in turpis efficitur convallis at bibendum erat. Curabitur in egestas ex. Etiam efficitur sagittis molestie. Praesent condimentum elementum ipsum sit amet euismod. Sed vestibulum, leo ac iaculis fringilla, felis nulla placerat turpis, eu aliquam elit risus vel tellus.
+      </p>
+     </section><section>
+      <h2>Reviews</h2>
+      <p>
+       Donec non nunc ac augue ornare aliquam. Aenean sed volutpat arcu. Sed molestie lacus placerat nisl gravida condimentum.
+      </p>
+     </section><section>
+      <h2>Contact</h2>
+      <p>
+       Nullam nec condimentum lacus. Integer dapibus velit nec ipsum varius, a pharetra arcu imperdiet. Donec pretium libero a tincidunt vulputate. Mauris feugiat tempor lectus, quis placerat mi congue sit amet.
+      </p>
+     </section>
+    </div>
+
+  </div><!-- .tabset -->
+
+  <!--section class = "section">
+     <div class = "container">
+
+        <nav class = "navbar">
+           <div class = "navbar-brand">
+
+              <div class = "navbar-item is-hoverable">
+                <a class = "navbar-item" href = "#">Blog</a>
+              </div>
+              <div class = "navbar-item has-dropdown is-hoverable">
+                 <a class = "navbar-link" href = "#">Projects</a>
+                 <div class = "navbar-dropdown is-boxed">
+                    <a class = "navbar-item" href = "#">MuffinEC</a>
+                    <a class = "navbar-item" href = "#">BigSEA</a>
+                 </div>
+              </div>
+           </div>
+              <div class = "navbar-end">
+                 <div class = "navbar-item">
+                    <div class = "field is-grouped">
+                       <p class = "control">
+                          <a class = "bd-tw-button button" data-social-network = "LinkedIN" href = "https://linkedin.com/in/andy-s-alic-2a70b012">
+                          <span class = "icon">
+                             <i class = "fab fa-linkedin fa-2x"></i>
+                          </span>
+                          </a>
+                       </p>
+                       <p class = "control">
+                          <a class = "bd-tw-button button" data-social-network = "Github" href = "https://github.com/asalic">
+                             <span class = "icon">
+                                <i class = "fab fa-github-square fa-2x"></i>
+                             </span>
+                          </a>
+                       </p>
+
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </nav>
+     </div>
+
+  </section-->
+
 </body>
+
 
 </html>
