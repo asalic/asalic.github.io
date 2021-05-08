@@ -3,6 +3,10 @@ body {
   padding: 3em;
 
 }
+.tab-navbar {
+  width: 100%;
+  display: flex;
+}
 
 .tab-content {
   height:100%;
@@ -15,12 +19,36 @@ body {
   left:-100%;
 }
 
-.tabset > ul {
+.tabset > div ul {
+
+  max-width: 80%;
+  min-width: 80%;
   position:relative;
   z-index:999;
   list-style:none;
   display:flex;
   margin-bottom:-1px;
+  width: 80%;
+}
+
+.tabset > div div {
+
+  max-width: 15%;
+  min-width: 15%;
+  position:relative;
+  z-index:999;
+  display:flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+  width: 15%;
+  margin-bottom:-1px;
+}
+
+.tabset > div div p:last-child {
+    margin-left: auto;
+    margin-right: 0;
+
 }
 
 /*.tabset > ul label,
@@ -28,18 +56,18 @@ body {
   border:1px solid hsl(220, 100%, 60%);
 }*/
 
-.tabset > ul label {
+.tabset > div ul label {
   display:inline-block;
   padding:0.25em 1em;
   background:hsl(220, 100%, 90%);
   border-right-width:0;
 }
 
-.tabset > ul li:first-child label {
+.tabset > div ul li:first-child label {
   border-radius:0.5em 0 0 0;
 }
 
-.tabset > ul li:last-child label {
+.tabset > div ul li:last-child label {
   border-right-width:1px;
   border-radius:0 0.5em 0 0;
 }
@@ -98,7 +126,7 @@ body {
   position:Static;
 }
 
-.tabset > ul label {
+.tabset > div ul label {
   -webkit-touch-callout:none;
   -webkit-user-select:none;
   -khtml-user-select:none;
