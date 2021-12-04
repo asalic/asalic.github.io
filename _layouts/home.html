@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="hero-body">
+    <p class="subtitle">
+      Hi and welcome to my web.
+      I'm Andy S Alic, a fullstack software engineer living in beautifull Spain.
+      I love sunny weather, the summer, pizza and weight lifting.
+      In any order.
+    </p>
+  <div>
+</section>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="columns"><div class="title is-one-fifth mr-2">Latest posts</div><div><a href="/blog">More >>></a></div></div>
+    <div class="subtitle">
+      {% for post in site.posts %}
+        <div class="container is-fluid">
+            <a href="{{ post.url | relative_url }}">{{post.title}}</a><span class="is-pulled-right">{{ post.date }}</span>
+        </div>
+      {% endfor %}
+    </div>
+  <div>
+</section>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="columns"><div class="title is-one-fifth mr-2">Portofolio</div><div><a href="/portofolio">More >>></a></div></div>
+    <div class="subtitle tile is-ancestor">
+      {% for item in site.data.portofolio %}
+        <div class="tile is-2 is-vertical is-success">
+          <a href="{{ post.url | relative_url }}">
+              <div class="title" style="position: relative; display:block;">
+                <img class="portofolio-home-hero" src="{{ item.imgBackground }}"></img>
+                <div class="portofolio-home-hero-txt">{{ item.name }}</div>
+              </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  <div>
+</section>

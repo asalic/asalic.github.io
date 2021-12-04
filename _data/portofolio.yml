@@ -1,0 +1,22 @@
+- name: Alien4Cloud DEEP
+  tech: AngularJS, Spring Boot (Java), Docker
+  description: >
+    Alien4Cloud is a cloud deployments management and designer tool.
+    It uses templates written in Topology and Orchestration Specification for Cloud Applications (TOSCA) to create cloud deployments.
+    These deployments can be either whole infrastructures such as kubernetes clusters where you specify the configuration of the virtual machines, the network, the configuration, etc.
+    or application deployments on existing infrastructures such as a Mesos+Marathon cluster.
+    Alien4Cloud doesn't create the actual deployment, it communicates the TOSCA recipe to an orchestrator to be created in the cloud.
+  work: >
+    My work included creating a plugin in Java to connect to the orchestrator used in the DEEP project,
+    extending the functionality of Alien4Cloud,
+    and improving the support for TOSCA in both the software's parser and in the UI respectively.
+    I also took care of the actual deployment of the tool, so the interested parties could take advantage of it.
+  img: /assets/img/a4c.png
+  imgBackground: /assets/img/deep_logo.png
+  links:
+    - name: Project Official Page
+      key: project_official_page
+      link: https://deep-hybrid-datacloud.eu/
+    - name: Alien4Cloud (modded) repo
+      key: project_official_page
+      link: https://github.com/asalic/alien4cloud-deep
