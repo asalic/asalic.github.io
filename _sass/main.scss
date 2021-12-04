@@ -1,6 +1,10 @@
 html,
 body {
-    height: 100%;
+    height: 100vh;
+  width: 100%;
+  padding: 20px;
+  display:flex;
+  flex-direction:column;
 }
 
 .portofolio-home-hero {
@@ -24,13 +28,22 @@ body {
 
 .content-main {
 
+  width: 100%;
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  overflow-y: scroll;
+}
+
+.footer-data{
+  background-color: #F0F0F0;
 }
 
 .footer-main {
-  position: fixed;
+  background-color: #F0F0F0;
+  padding:0.5em;
    bottom: 0;
    left: 0;
    right: 0;
-  height: 1em;
- max-height: 1em;
+  height: auto;
 }
