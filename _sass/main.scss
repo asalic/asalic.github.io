@@ -19,5 +19,18 @@ body {
 }
 
 .navbar-nav > .active > a {
-    background-color: blue ; 
+    background-color: blue ;
+}
+
+.content-main {
+
+}
+
+.footer-main {
+  position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+  height: 1em;
+ max-height: 1em;
 }
