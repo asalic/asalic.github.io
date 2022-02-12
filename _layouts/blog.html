@@ -2,8 +2,23 @@
 layout: default
 ---
 
-<ul>
+<section class="mt-6 ml-6 mr-6">
     {% for post in site.posts %}
-        <li><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
+
+        <section class="hero">
+          <div class="hero-head">
+            <div class="columns is-fullwidth">
+              <div class="column is-four-fifths title mb-0 pb-0">
+                <div class="title"><a href="{{ post.url | relative_url }}">{{post.title}}</a></div>
+              </div>
+              <div class="column has-text-right">
+          			<b>{{ post.date | date: "%d %b %Y" }}</b>
+          		</div>
+            </div>
+          </div>
+          <div class="hero-body mt-2 pt-2">
+              <div class="subtitle">{{ post.excerpt }}</div>
+          </div>
+        </section>
     {% endfor %}
-</ul>
+</section>

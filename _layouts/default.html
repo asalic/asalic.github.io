@@ -8,7 +8,8 @@
 </head>
 <body>
 	{% include navbar.html %}
-  <div class="content-main">
+  {% include breadcrumbs.html %}
+  <div class="content-main" style="background-image: url('/assets/img/work_in_progress.svg');">
     {{ content }}
   </div>
   {% include footer.html %}

@@ -36,14 +36,27 @@ body {
 }
 
 .footer-data{
-  background-color: #F0F0F0;
+  /*background-color: #F0F0F0;*/
 }
 
 .footer-main {
-  background-color: #F0F0F0;
+/*  background-color: #F0F0F0;*/
   padding:0.5em;
    bottom: 0;
    left: 0;
    right: 0;
   height: auto;
+}
+
+.blog-post {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.home-section-title {
+  background-color: #F0F0F0;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top:0;
+  padding-bottom:0
 }
