@@ -1,0 +1,41 @@
+- authors: Andy S. Alic, Marica Antonacci, Ignacio Blanquer, Miguel Caballer, Giacinto Donvito, Álvaro López, Germán Moltó
+  year: October 2018
+  title: "Composition and Deployment of Complex Container-Based Application Architectures on Multi-Clouds"
+  type: Presentation
+  conference: "Digital Infrastructures for Research"
+  where: Lisbon, PT
+
+- authors: Andy S. Alic, Miguel Caballer, Germán Moltó
+  year: June 2018
+  title: "Building and Deploying Complex Applications on Hybrid Clouds"
+  type: Lecture
+  conference: "NEW CHALLENGES IN DATA SCIENCE: BIG DATA AND DEEP LEARNING ON DATA CLOUDS"
+  where: Santander, ES
+
+- authors: Andy S. Alic, Marica Antonacci, Ignacio Blanquer, Miguel Caballer, Giacinto Donvito, Álvaro López, Germán Moltó
+  year: December 2017
+  title: "EUBra-BIGSEA framework live demo"
+  type: Demo
+  conference: "Digital Infrastructures for Research (Di4R)"
+  where: Brussels, BE
+
+- authors: Andy S. Alic, Ignacio Blanquer
+  year: June 2016
+  title: "Error Correction of NGS Data"
+  type: Lecture
+  conference: "e-Research Summer Hackfest"
+  where: Catania, IT
+
+- authors: Andy S. Alic, Ignacio Blanquer
+  year: July 2015
+  title: "MuffinInfo: HTML5 statistics extraction system from FastQ/Fasta/Sam files"
+  type: Poster
+  conference: 23rd Annual International Conference on/European Conference on Computational Biology (ECCB) and Intelligent Systems for Molecular Biology (ISMB)
+  where: Dublin, IE
+
+- authors: A. Alic, Andres Tomás, Jose Salavert, Ignacio Medina, Ignacio Blanquer
+  year: April 2014
+  title: "Robust Error Correction for De Novo Assembly via Spectral Partitioning and Sequence Alignment"
+  type: Presentation
+  conference: 2nd International Work-Conference on Bioinformatics and Biomedical Engineering (IWBBIO)
+  where: Granada, ES
