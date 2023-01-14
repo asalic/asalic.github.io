@@ -1,0 +1,21 @@
+There are times when you want to keep the SQL code as general and short as possible. 
+The next example shows how to write a generic SQL query where some conditions can be skipped by setting the parameter as null.
+Consider a method that selects all persons that fulfill certain requirements.
+To simplify the example, let's consider the requirements to be applied all at once, meaning that AND should be used.
+Next, passing unknown (null, None, undefined depending on the language etc.)
+
+<h4>Java</h4>
+<code>
+
+private 
+
+</code>
+
+<h4>PostgreSQL</h4>
+<code>
+
+SELECT Person.* FROM Person
+  WHERE 
+
+</code>
+
