@@ -3,6 +3,14 @@ body {
   padding: 3em;
 
 }
+
+.footer-ext {
+  font-size: 0.75em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .tab-navbar {
   width: 100%;
   display: flex;
