@@ -1,0 +1,43 @@
+<nav class="navbar navbar-main" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a aria-label="logo" class="navbar-item" href="#"">
+      <img alt="logo" src="/assets/img/logo.png" width="45" height="35">
+    </a>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div class="navbar-menu">
+    <div class="navbar-start">
+      {% for link in site.data.navigation.links %}
+        <a href="{{ site.baseurl }}{{ link.link }}"
+             class="navbar-item active"
+             {% if link.new_window %}
+             target="_blank"
+             {% endif %}>
+             {{ link.name }}
+        </a>
+		  {% endfor %}
+      </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a aria-label="linkedin-logo" class="mr-2 ml-2" href="https://www.linkedin.com/in/andy-s-alic-2a70b012/">
+            <img alt="linkedin-logo" src="/assets/img/linkedin_logo.png">
+          </a>
+          <a aria-label="github-logo" class="mr-2 ml-2" href="https://github.com/asalic">
+            <img alt="github-logo" src="/assets/img/github_logo.png">
+          </a>
+          <a aria-label="orcid-logo" class="mr-2 ml-2" href="https://orcid.org/0000-0003-4350-7832">
+            <img alt="orcid-logo" src="/assets/img/orcid_logo.png">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

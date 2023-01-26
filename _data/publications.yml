@@ -1,0 +1,72 @@
+- title: A Cloud-Based Framework for Machine Learning Workloads and Applications
+  authors: López García, Álvaro and De Lucas, Jesús Marco and Antonacci, Marica and Zu Castell, Wolfgang and David, Mario and Hardt, Marcus and Lloret Iglesias, Lara and Moltó, Germán and Plociennik, Marcin and Tran, Viet and Alic, Andy S. and Caballer, Miguel and Plasencia, Isabel Campos and Costantini, Alessandro and Dlugolinsky, Stefan and Duma, Doina Cristina and Donvito, Giacinto and Gomes, Jorge and Heredia Cacha, Ignacio and Ito, Keiichi and Kozlov, Valentin Y. and Nguyen, Giang and Orviz Fernández, Pablo and Šustr, Zděnek and Wolniewicz, Pawel
+  journal: IEEE Access
+  doi: 10.1109/ACCESS.2020.2964386
+  url: "https://ieeexplore.ieee.org/abstract/document/8950411"
+  year: 2020
+  volume: 8
+  number:
+  pages: 18681-18692
+  issn: null
+  abstract: "In this paper we propose a distributed architecture to provide machine learning practitioners with a set of tools and cloud services that cover the whole machine learning development cycle: ranging from the models creation, training, validation and testing to the models serving as a service, sharing and publication. In such respect, the DEEP-Hybrid-DataCloud framework allows transparent access to existing e-Infrastructures, effectively exploiting distributed resources for the most compute-intensive tasks coming from the machine learning development cycle. Moreover, it provides scientists with a set of Cloud-oriented services to make their models publicly available, by adopting a serverless architecture and a DevOps approach, allowing an easy share, publish and deploy of the developed models."
+
+- authors: Sebastián Blesa, María D Olivares, Andy S Alic, Alicia Serrano, Verónica Lendinez, Verónica González-Albert, Laura Olivares, Sergio Martínez-Hervás, José M Juanes, Pablo Marín, Jose T Real, Blanca Navarro, Ana B García-García, Felipe J Chaves, Carmen Ivorra
+  title: Easy One-Step Amplification and Labeling Procedure for Copy Number Variation Detection
+  journal: Clinical Chemistry
+  volume: 66
+  number: 3
+  pages: 463-473
+  year: 2020
+  month: 02
+  abstract: "Background: The specific characteristics of copy number variations (CNVs) require specific methods of detection and characterization. We developed the Easy One-Step Amplification and Labeling procedure for CNV detection (EOSAL-CNV), a new method based on proportional amplification and labeling of amplicons in 1 PCR. Methods: We used tailed primers for specific amplification and a pair of labeling probes (only 1 labeled) for amplification and labeling of all amplicons in just 1 reaction. Products were loaded directly onto a capillary DNA sequencer for fragment sizing and quantification. Data obtained could be analyzed by Microsoft Excel spreadsheet or EOSAL-CNV analysis software. We developed the protocol using the LDLR (low density lipoprotein receptor) gene including 23 samples with 8 different CNVs. After optimizing the protocol, it was used for genes in the following multiplexes: BRCA1 (BRCA1 DNA repair associated), BRCA2 (BRCA2 DNA repair associated), CHEK2 (checkpoint kinase 2), MLH1 (mutL homolog 1) plus MSH6 (mutS homolog 6), MSH2 (mutS homolog 2) plus EPCAM (epithelial cell adhesion molecule) and chromosome 17 (especially the TP53 [tumor protein 53] gene). We compared our procedure with multiplex ligation-dependent probe amplification (MLPA). Results: The simple procedure for CNV detection required 150 min, with <10 min of handwork. After analyzing >240 samples, EOSAL-CNV excluded the presence of CNVs in all controls, and in all cases, results were identical using MLPA and EOSAL-CNV. Analysis of the 17p region in tumor samples showed 100% similarity between fluorescent in situ hybridization and EOSAL-CNV. Conclusions: EOSAL-CNV allowed reliable, fast, easy detection and characterization of CNVs. It provides an alternative to targeted analysis methods such as MLPA."
+  issn: 0009-9147
+  doi: 10.1093/clinchem/hvaa002
+  url: "https://doi.org/10.1093/clinchem/hvaa002"
+
+- title: "BIGSEA: A Big Data analytics platform for public transportation information"
+  journal: Future Generation Computer Systems
+  volume: 96
+  pages: 243-269
+  year: 2019
+  issn: 0167-739X
+  doi: 10.1016/j.future.2019.02.011
+  url: "https://www.sciencedirect.com/science/article/pii/S0167739X18304448"
+  authors: Andy S. Alic, Jussara Almeida, Giovanni Aloisio, Nazareno Andrade, Nuno Antunes, Danilo Ardagna, Rosa M. Badia, Tania Basso, Ignacio Blanquer, Tarciso Braz, Andrey Brito, Donatello Elia, Sandro Fiore, Dorgival Guedes, Marco Lattuada, Daniele Lezzi, Matheus Maciel, Wagner Meira, Demetrio Mestre, Regina Moraes, Fabio Morais, Carlos Eduardo Pires, Nádia P. Kozievitch, Walter dos Santos, Paulo Silva, Marco Vieira
+  abstract: "Analysis of public transportation data in large cities is a challenging problem. Managing data ingestion, data storage, data quality enhancement, modelling and analysis requires intensive computing and a non-trivial amount of resources. In EUBra-BIGSEA (Europe–Brazil Collaboration of Big Data Scientific Research Through Cloud-Centric Applications) we address such problems in a comprehensive and integrated way. EUBra-BIGSEA provides a platform for building up data analytic workflows on top of elastic cloud services without requiring skills related to either programming or cloud services. The approach combines cloud orchestration, Quality of Service and automatic parallelisation on a platform that includes a toolbox for implementing privacy guarantees and data quality enhancement as well as advanced services for sentiment analysis, traffic jam estimation and trip recommendation based on estimated crowdedness. All developments are available under Open Source licenses (http://github.org/eubr-bigsea, https://hub.docker.com/u/eubrabigsea/)."
+
+- authors: Andy S. Alic, David Ruzafa, Joaquin Dopazo, Ignacio Blanquer
+  title: Objective review of de novo stand-alone error correction methods for NGS data
+  journal: WIREs Computational Molecular Science
+  volume: 6
+  number: 2
+  pages: 111-146
+  doi: 10.1002/wcms.1239
+  url: "https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wcms.1239"
+  year: 2016
+  abstract: "The sequencing market has increased steadily over the last few years, with different approaches to read DNA information prone to different types of errors. Multiple studies demonstrated the impact of sequencing errors on different applications of next-generation sequencing (NGS), making error correction a fundamental initial step. Different methods in the literature use different approaches and fit different types of problems. We analyzed 50 methods divided into five main approaches (k-spectrum, suffix arrays, multiple-sequence alignment, read clustering, and probabilistic models). They are not published as a part of a suite (stand-alone), and target raw, unprocessed data without an existing reference genome (de novo). These correctors handle one or more sequencing technologies using the same or different approaches. They face general challenges (sometimes with specific traits for specific technologies) such as repetitive regions, uncalled bases, and ploidy. Even assessing their performance is a challenge in itself because of the approach taken by various authorss, the unknown factor (de novo), and the behavior of the third-party tools employed in the benchmarks. This study aims to help the researcher in the field to advance the field of error correction, the educator to have a brief but comprehensive companion, and the bioinformatician to choose the right tool for the right job."
+
+
+- title: "MuffinEc: Error correction for de Novo assembly via greedy partitioning and sequence alignment"
+  journal: Information Sciences
+  volume: 329
+  pages: 206-219
+  year: 2016
+  note: Special issue on Discovery Science
+  issn: 0020-0255
+  doi: 10.1016/j.ins.2015.09.012
+  url: "https://www.sciencedirect.com/science/article/pii/S0020025515006660"
+  authors: Andy S.Alic, Andres Tomas, Ignacio Medina, Ignacio Blanquer
+  keywords: Genomic error correction, Next generation sequencing, De novo, Multiple sequence alignment
+  abstract: "Error correction is typically the first step of de Novo genome assembly from NGS data. This step has an important impact on the quality and speed of the assembly process. However, the majority of available stand-alone error correction solutions can only detect and correct mismatches. Therefore, these solutions only support correcting reads generated by Illumina sequencers. Several solutions support insertions and deletions (indels) and are capable of working with multiple technologies. However, these solutions are limited by correction performance and resource consumption. In this paper, we introduce MuffinEc, an indel-aware multi-technology correction method for NGS data. This method uses a greedy approach to create groups of reads and subsequently corrects them using their consensus. MuffinEc surpasses existing solutions by offering better correction ratios for multiple technologies. This method also exploits parallel processing via OpenMP and uses less computational resources than similar programs, thereby being capable of handling large datasets. MuffinEc is open source and freely available at http://muffinec.sourceforge.net."
+
+
+- authors:  Andy S. Alic, Ignacio Blanquer
+  title: "MuffinInfo: HTML5-Based Statistics Extractor from Next-Generation Sequencing Data"
+  journal: Journal of Computational Biology
+  volume: 23
+  number: 9
+  pages: 750-755
+  year: 2016
+  url: "https://www.liebertpub.com/doi/abs/10.1089/cmb.2016.0031"
+  doi: 10.1089/cmb.2016.0031
+  abstract: "Usually, the information known a priori about a newly sequenced organism is limited. Even resequencing the same organism can generate unpredictable output. We introduce MuffinInfo, a FastQ/Fasta/SAM information extractor implemented in HTML5 capable of offering insights into next-generation sequencing (NGS) data. Our new tool can run on any software or hardware environment, in command line or graphically, and in browser or standalone. It presents information such as average length, base distribution, quality scores distribution, k-mer histogram, and homopolymers analysis. MuffinInfo improves upon the existing extractors by adding the ability to save and then reload the results obtained after a run as a navigable file (also supporting saving pictures of the charts), by supporting custom statistics implemented by the user, and by offering user-adjustable parameters involved in the processing, all in one software. At the moment, the extractor works with all base space technologies such as Illumina, Roche, Ion Torrent, Pacific Biosciences, and Oxford Nanopore. Owing to HTML5, our software demonstrates the readiness of web technologies for mild intensive tasks encountered in bioinformatics."

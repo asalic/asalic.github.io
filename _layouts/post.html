@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="is-flex-wrap-wrap blog-post">
+	<div class="columns is-fullwidth">
+		<div class="column is-four-fifths title mb-0 pb-0">
+			{% if page.title%}
+				{{page.title}}
+			{% else %}
+				<i>Untitled post</i>
+			{% endif %}
+		</div>
+		<div class="column has-text-right">
+			{{ page.date | date: "%d %b %Y" }}
+		</div>
+	</div>
+	<div class="title is-4 is-hcentered is-fullwidth">
+		{% for category in page.categories %}
+		<a href="#"><i>#{{category}}</i></a>
+    {% endfor %}
+	</div>
+
+	<div class="is-fullwidth">
+		{{ content }}
+	</div>
+</div>

@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% for item in site.data.portofolio %}
+<section class="section is-medium">
+  <h1 class="title">{{ item.name }}</h1>
+  <h2 class="subtitle">
+    <div  class="mt-4 mb-4">
+      <i class="is-size-6">{{ item.tech | join: ", " }}</i>
+    </div>
+    <div>
+      <p class="mt-2 mb-2"><b>Description </b>{{ item.description }}</p>
+      <p class="mt-2 mb-2"><b>Work </b>{{ item.work }}</p>
+    </div>
+    <div class="mt-4">
+      <ul>
+        {% for link in item.links %}
+          <li><a href="{{ link.link }}"
+               {% if link.new_window %}
+               target="_blank"
+               {% endif %}>
+               {{ link.name }}
+          </a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </h2>
+</section>
+<hr>
+{% endfor %}
